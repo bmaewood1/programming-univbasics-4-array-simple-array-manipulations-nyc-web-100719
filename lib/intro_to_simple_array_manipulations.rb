@@ -76,7 +76,9 @@ describe "using_delete" do
 end
 
 def using_delete(array, string)
-  
+  newarray = array.delete(string)
+  newarray
+end
 
 
 
