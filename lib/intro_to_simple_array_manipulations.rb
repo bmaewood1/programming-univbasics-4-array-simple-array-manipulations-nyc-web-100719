@@ -58,7 +58,8 @@ describe "using_flatten" do
   end
 end
 
-def using_flatten
+def using_flatten(array)
+  newarray = array.flatten
 
 
 
