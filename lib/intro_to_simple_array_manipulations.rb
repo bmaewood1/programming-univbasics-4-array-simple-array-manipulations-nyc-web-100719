@@ -9,19 +9,16 @@ def using_unshift(array, string)
 end
 
 
-
 def using_pop(array)
   newarray = array.pop
   newarray
 end
 
 
-
 def pop_with_args(array)
   newarray = array.pop(2)
   newarray
 end
-
 
 
 def using_shift(array)
@@ -46,3 +43,4 @@ def using_insert(array, element)
   newarray = array.insert(4, element)
   newarray
 end
+
