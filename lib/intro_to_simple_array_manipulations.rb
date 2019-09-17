@@ -46,7 +46,8 @@ end
 
 
 def using_uniq(array)
-  new_array = array.uniq 
+  newarray = array.uniq
+  newarray
 end
 
 
@@ -60,13 +61,8 @@ end
 
 def using_flatten(array)
   newarray = array.flatten
-
-
-
-
-
-
-
+  newarray
+end
 
 
 
@@ -78,6 +74,21 @@ describe "using_delete" do
     expect(instructors).not_to include("Steven")
   end
 end
+
+def using_delete(array, string)
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 describe "using_delete_at" do 
   it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
