@@ -61,4 +61,4 @@ end
 
 
 def using_insert(array, element)
-  new_array = 
+  new_array = array.insert
