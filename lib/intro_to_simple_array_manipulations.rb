@@ -7,3 +7,6 @@ describe "using_push" do
     end
 end
 
+def using_push(array, string)
+  string = "violet"
+  
