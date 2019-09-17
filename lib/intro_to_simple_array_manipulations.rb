@@ -41,5 +41,5 @@ end
 
 
 def using_shift(array)
-  
+  newarray = 
   
