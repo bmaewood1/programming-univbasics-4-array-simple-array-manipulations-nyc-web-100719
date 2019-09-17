@@ -9,4 +9,4 @@ end
 
 def using_push(array, string)
   string = "violet"
-  
+  array.push(string)
