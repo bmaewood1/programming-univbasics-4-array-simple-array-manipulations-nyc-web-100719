@@ -19,6 +19,7 @@ end
 
 def pop_with_args(arry)
   newarray = array.pop(2)
+  newarray
 end
   
   
