@@ -44,22 +44,10 @@ def using_insert(array, element)
   newarray
 end
 
-describe "using_uniq" do 
-  it "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
-    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    new_array = using_uniq(haircuts)
-    expect(new_array).to eq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"])
-  end
-end
 
 def using_uniq(array)
   new_array = array.uniq 
 end
-
-
-
-
-
 
 
 describe "using_flatten" do 
@@ -69,6 +57,17 @@ describe "using_flatten" do
      expect(flat_array).to eq(["Saxophone", "Piano", "Trumpet", "Violin", "Drums", "Flute"])
   end
 end
+
+def using_flatten
+
+
+
+
+
+
+
+
+
 
 
 describe "using_delete" do 
