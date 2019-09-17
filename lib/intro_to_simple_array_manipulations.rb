@@ -20,7 +20,7 @@ end
 
 
 def pop_with_args(array)
-  newarray = array.pop(1)
+  newarray = array.pop(2)
   newarray
 end
   
