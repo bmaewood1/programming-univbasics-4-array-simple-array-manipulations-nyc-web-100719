@@ -22,4 +22,6 @@ end
 
 def using_unshift(array, string)
   string= "Staten Island"
-  @updated_array = 
+  @updated_array = array.unshift(string)
+end
+
