@@ -60,3 +60,5 @@ describe "using_insert" do
 end
 
 
+def using_insert(array, element)
+  new_array = 
