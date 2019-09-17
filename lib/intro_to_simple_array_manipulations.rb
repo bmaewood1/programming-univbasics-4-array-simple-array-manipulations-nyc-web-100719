@@ -9,4 +9,6 @@ end
 
 def using_push(array, string)
   string = "violet"
-  array.push(string)
+  updated_array = array.push(string)
+end
+
